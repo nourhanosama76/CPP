@@ -38,6 +38,7 @@ public:
         cout << "Balance is " << balance << " $" << endl;
     }
 
+
     /* not marked const because it modifies the balance */
     void withdraw() {
         double withdrawAmount;
